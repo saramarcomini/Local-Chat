@@ -1,10 +1,9 @@
-# Chat Local na Rede
+- Chat Local na Rede
 
-Um projeto de chat simples e em tempo real que funciona inteiramente em uma rede local, sem a necessidade de conexão com a internet. A aplicação utiliza um servidor Python com WebSockets para a comunicação e uma interface web básica em HTML e JavaScript.
+Um projeto de chat em tempo real que funciona inteiramente em uma rede local, sem a necessidade de conexão com a internet. A aplicação utiliza um servidor Python com WebSockets para a comunicação e uma interface web básica em HTML e JavaScript.
 
----
 
-## ✨ Funcionalidades
+- Funcionalidades
 
 * **Chat em Tempo Real:** As mensagens são enviadas e recebidas instantaneamente por todos os clientes conectados.
 * **Identificação de Usuário:** Ao entrar no chat, o usuário é solicitado a fornecer um nome.
@@ -12,17 +11,15 @@ Um projeto de chat simples e em tempo real que funciona inteiramente em uma rede
 * **Operação Local:** Roda em qualquer rede local (Wi-Fi, Ethernet), ideal para escritórios, casas ou eventos.
 * **Leve e Simples:** Não requer frameworks complexos ou bancos de dados.
 
----
 
-## 🚀 Vídeo de Demonstração
+ - Vídeo de Demonstração
 
 Assista a um vídeo rápido mostrando o chat em ação:
 
 [**>> LINK PARA O VÍDEO AQUI <<**](https://youtu.be/JhxM4uyj2cE)
 
----
 
-## 🔧 Como Funciona
+- Como Funciona
 
 A aplicação é dividida em duas partes principais: o **Backend** (servidor em Python) e o **Frontend** (interface web).
 
@@ -49,9 +46,8 @@ O frontend é a interface com a qual o usuário interage no navegador.
     * Quando uma mensagem é recebida do servidor, ela é adicionada à área de chat.
     * A função `enviar()` pega o texto digitado pelo usuário e o envia para o servidor através da conexão WebSocket.
 
----
 
-## ⚙️ Como Executar
+- Como Executar
 
 ### Pré-requisitos
 
